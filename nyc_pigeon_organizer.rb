@@ -16,6 +16,7 @@ def nyc_pigeon_organizer(data)
           organized_pigeons[name][color_gen_loc] << attribute.to_s
         end
       end
+      binding.pry
     end
   end
   organized_pigeons
